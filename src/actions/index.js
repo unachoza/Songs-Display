@@ -1,6 +1,6 @@
 
 //Action Creator
-export const selectSong = () => {
+export const selectSong = (song) => {
     //return an action object
     return {
         type: "SONG_SELECTED",
